@@ -2,6 +2,6 @@
 namespace PV;
 
 use  pocketmine\server
-use pocketmine\plugin\PluginBase
+use  pocketmine\plugin\PluginBase
 
-class: 
+class: Vaults/main
