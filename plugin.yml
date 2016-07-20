@@ -1,0 +1,6 @@
+name: Vaults
+main: Vaults\MainClass
+version: 1.0.0
+api: [2.0.0]
+author: NetworkGG team
+description: Put ur custom enchants and favorite gear in personal vaults!
