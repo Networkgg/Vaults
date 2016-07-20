@@ -5,10 +5,7 @@ api: [2.0.0]
 author: NetworkGG team
 description: Put ur custom enchants and favorite gear in personal vaults!
 commands:
-   pv:
-      description: Main command
-permissions:
-     Vaults.*:
-      default: op
-      description: Allows them to access all pv commandas
-      
+ pv:
+  description: "This is the player vault command"
+  usage: "/pv <#>"
+  permission: defualt 
