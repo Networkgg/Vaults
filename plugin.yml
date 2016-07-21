@@ -8,4 +8,7 @@ commands:
  pv:
   description: "This is the player vault command"
   usage: "/pv <#>"
-  permission: defualt 
+  permission: defualt
+permissions:
+  vaults.10:
+    description: Permission to have up till 10 vaults!
