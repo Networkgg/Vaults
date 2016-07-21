@@ -7,7 +7,7 @@ use pocketmine\command\CommandSender;
 
 class MainClass implements PluginBase
 
-    public function onEnable();
+    public function onEnable(){
         $this->saveDefaultConfig();
         $this->reloadConfig();
         $this->getLogger()->info("Vaults is now Enabled!");
