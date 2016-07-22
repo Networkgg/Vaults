@@ -5,6 +5,8 @@ use pocketmine\Server;
 use pocketmine\plugin\PluginBase;
 use pocketmine\command\CommandSender;
 
+use pocketmine\
+
 class MainClass implements PluginBase
 
     public function onEnable(){
@@ -21,7 +23,7 @@ class MainClass implements PluginBase
 
     return false;
 }
-
+    public function 
     public function onDisable(){
         $this->getLogger()->info("Vaults is now Disabled!");
     }
