@@ -7,7 +7,7 @@ use pocketmine\command\CommandSender;
 
 use pocketmine\
 
-class MainClass implements PluginBase
+class MainClass implements PluginBase {
 
     public function onEnable(){
         $this->saveDefaultConfig();
